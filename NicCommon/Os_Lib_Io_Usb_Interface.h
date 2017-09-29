@@ -40,13 +40,19 @@ PUrb OsUrbAllocate();
 
 U8 OsUrbFree(PUrb);
 
+U8 OsUrbKill(PUrb);
+
+U8 OsUrbUnlink(PUrb);
+
+U8 OsUrbSubmit(PUrb);
+
 /*
 * Methods to do different kinds of transactions async or sync.
 */
 
 /* 
 * Initializes a control urb with the proper information and 
-* then send it async (only submit the to a device)
+* then sumbit it async (only submit the to a device)
 * or sned it sync.
 */
 U8 OsUsbSendControlAsync(NicOsInterface* pDevice, 

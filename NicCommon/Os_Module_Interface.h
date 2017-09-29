@@ -12,7 +12,7 @@ typedef struct _NicOsInterface{
     NicDeviceInterface* pOsInterface;
     } NicOsInterface;
 
-NicOsInterface* CreateOSInterface();
+NicOsInterface* CreateOsInterface();
 
 // free data packet
 void NicOsTxDataPacketFree(_IN_ NicOsInterface* pOsInterface,

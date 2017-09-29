@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\data_structure">
+      <UniqueIdentifier>{2866d48b-b705-4f9e-8a98-8e81c3dfd2c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data_structure">
+      <UniqueIdentifier>{676ef599-0a18-43cd-a43e-90e4b342e2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{fa8e48e3-fe4a-456a-9eab-c732b87f46b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\data_strucutre">
+      <UniqueIdentifier>{0da3c2b4-9794-40b5-b1dc-736676b4fa99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="feature\tuple_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reference_bind_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="value_category_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="auto_specifier_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="auto_decltype_compare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="type_deduction_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ill_typed_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sfinae_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="higher_order_type_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="move_ctor_and_assignment_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test\data_structure\min_heap_test.cpp">
+      <Filter>Tests\data_strucutre</Filter>
+    </ClCompile>
+    <ClCompile Include="test\data_structure\dual_stack_test.cpp">
+      <Filter>Tests\data_strucutre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raytrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="feature\static_assert_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ill_typed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="data_structure\min_heap.h">
+      <Filter>Header Files\data_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="test\data_structure\min_heap_test.h">
+      <Filter>Tests\data_strucutre</Filter>
+    </ClInclude>
+    <ClInclude Include="data_structure\dual_stack.h">
+      <Filter>Header Files\data_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="test\data_structure\dual_stack_test.h">
+      <Filter>Tests\data_strucutre</Filter>
+    </ClInclude>
+    <ClInclude Include="data_structure\union_find_sets.h">
+      <Filter>Header Files\data_structure</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

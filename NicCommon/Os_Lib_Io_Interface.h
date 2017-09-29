@@ -9,37 +9,37 @@
 
 #pragma region Read / Write single IO port
 
-OperationStatus OSReadPort8(_IN_ U32 pAddr,     // 输入参数，pAddr指定了读取的内存地址
+OperationStatus OsReadPort8(_IN_ U32 pAddr,     // 输入参数，pAddr指定了读取的内存地址
                             _OUT_ PVoid pData); // 输出参数，数据将被写入到pData指向的内存
 
-OperationStatus OSWritePort8(_IN_ pAddr, 
+OperationStatus OsWritePort8(_IN_ pAddr, 
                              _IN_ data);
 
-OperationStatus OSReadPort16(_IN_ U32 pAddr,
+OperationStatus OsReadPort16(_IN_ U32 pAddr,
                              _OUT_ PVoid pData);
 
-OperationStatus OSWritePort16(_IN_ U32 pAddr, 
+OperationStatus OsWritePort16(_IN_ U32 pAddr, 
                               _IN_ U16 data);
 
-OperationStatus OSReadPort32(_IN_ U32 pAddr, 
+OperationStatus OsReadPort32(_IN_ U32 pAddr, 
                              _OUT_ PVoid pData);
 
-intOperationStatus OSWritePort32(_IN_ U32 pAddr, 
+intOperationStatus OsWritePort32(_IN_ U32 pAddr, 
                                  _IN_ U32 data);
 
 #pragma endregion
 
 #pragma region Read / Write serveral continous IO ports
 
-OperationStatus OSReadPortBuffer8(_IN_ U32 pAddr,
+OperationStatus OsReadPortBuffer8(_IN_ U32 pAddr,
                                   _OUT_ PVoid pBuffer, 
                                   _IN_ size_t length);
 
-OperationStatus OSReadPortBuffer16(_IN_ U32 pAddr,
+OperationStatus OsReadPortBuffer16(_IN_ U32 pAddr,
                                    _OUT_ PVoid pBuffer, 
                                    _IN_ size_t length);
 
-OperationStatus OSReadPortBuffer32(_IN_ U32 pAddr,
+OperationStatus OsReadPortBuffer32(_IN_ U32 pAddr,
                                    _OUT_ PVoid pBuffer, 
                                    _IN_ size_t length);
 

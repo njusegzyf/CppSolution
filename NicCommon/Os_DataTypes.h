@@ -28,6 +28,13 @@ typedef	I8*       PI8;
 
 typedef void*     PVoid;
 
+#ifndef TRUE
+#define TRUE 1
+#endif
+
+#ifndef FALSE
+#define FALSE 0
+#endif
 
 typedef enum _OperationStatus : U32 {
   STATUS_SUCCESS = 0,
@@ -56,14 +63,6 @@ typedef enum _OperationStatus : U32 {
   STATUS_RX_READY
 
   } OperationStatus;
-
-#ifndef TRUE
-#define TRUE 1
-#endif
-
-#ifndef FALSE
-#define FALSE 0
-#endif
 
 #pragma region Parameter markups
 
