@@ -66,9 +66,6 @@
     <ClCompile Include="test\data_structure\dual_stack_test.cpp">
       <Filter>Tests\data_strucutre</Filter>
     </ClCompile>
-    <ClCompile Include="..\raytrace.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="feature\static_assert_test.h">

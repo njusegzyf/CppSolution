@@ -165,10 +165,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\leetcode\leetcode.h" />
+    <ClInclude Include="src\util.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\leetcode\problem0020_valid_parentheses.cpp" />
+    <ClCompile Include="src\leetcode\problem0022_generate_parentheses.cpp" />
+    <ClCompile Include="src\leetcode\problem0026_remove_duplicates_from_sorted_array.cpp" />
+    <ClCompile Include="src\leetcode\problem0026_remove_duplicates_from_sorted_array_test.cpp" />
     <ClCompile Include="src\leetcode\problem0191_number_of_1_bits.cpp" />
     <ClCompile Include="src\leetcode\problem0461_hamming_distance.cpp" />
     <ClCompile Include="src\leetcode\problem0461_hamming_distance_test.cpp" />
@@ -176,6 +181,8 @@
     <ClCompile Include="src\leetcode\problem0500_keyboard_row_test.cpp" />
     <ClCompile Include="src\leetcode\problem0617_merge_two_binary_trees.cpp" />
     <ClCompile Include="src\leetcode\problem0561_array_partition1.cpp" />
+    <ClCompile Include="src\leetcode\problem0682_baseball_game.cpp" />
+    <ClCompile Include="src\leetcode\problem0682_baseball_game_test.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

@@ -6,9 +6,9 @@
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace zyf {
-  namespace leetcode {
+namespace leetcode {
 
-    TEST_CLASS(Solution0461Test) {
+TEST_CLASS(Solution0461Test) {
 public:
 
   TEST_METHOD(Solution0461TestMethod1) {
@@ -38,7 +38,7 @@ public:
 
 private:
   Solution0461 solution;
+};
 
-    };
-  }
+} // end namespace leetcode
 }

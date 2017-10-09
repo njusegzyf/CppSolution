@@ -121,7 +121,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\raytrace.cpp" />
     <ClCompile Include="auto_decltype_compare.cpp" />
     <ClCompile Include="auto_specifier_test.cpp" />
     <ClCompile Include="feature\tuple_test.cpp" />

@@ -30,6 +30,9 @@
     <ClInclude Include="src\leetcode\leetcode.h">
       <Filter>Header Files\leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="src\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\leetcode\problem0461_hamming_distance_test.cpp">
@@ -54,6 +57,24 @@
       <Filter>Source Files\leetcode</Filter>
     </ClCompile>
     <ClCompile Include="src\leetcode\problem0561_array_partition1.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\leetcode\problem0022_generate_parentheses.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\leetcode\problem0020_valid_parentheses.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\leetcode\problem0026_remove_duplicates_from_sorted_array.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\leetcode\problem0026_remove_duplicates_from_sorted_array_test.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\leetcode\problem0682_baseball_game.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\leetcode\problem0682_baseball_game_test.cpp">
       <Filter>Source Files\leetcode</Filter>
     </ClCompile>
   </ItemGroup>
